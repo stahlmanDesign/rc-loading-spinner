@@ -4,9 +4,18 @@ Simple React component that shows a loading spinner and a message
 # Git repository
 - https://github.com/stahlmanDesign/sd-react-loading
 
+# Installation
+- `npm install --save sd-react-loading`
 
 ## Usage
 
+- All arguments are optional
+- Defaults:
+	- **message**: **Loading…**
+	- **spinner**: `<i className='fa fa-spinner'/>` (if FontAwesome 4.x is installed)
+	- **className**: ''
+	- **style**: {}
+	
 ```
 import Loading from 'sd-react-loading'
 
@@ -17,6 +26,10 @@ import Loading from 'sd-react-loading'
 	style={{ background: 'red' }}
 />
 ```
+
+# Modifications
+- place the folder in your React project and `import Loading from '`…your path here…`../src/index.js'`
+
 
 # As an NPM module
 - Built according to this tutorial to allow publishing the ES6 React JSX code as an NPM module

@@ -1,6 +1,6 @@
 {
   "name": "sd-react-loading",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple React component that shows a loading spinner and a message",
   "main": "build/index.js",
   "peerDependencies": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "^16.2.0",
-    "webpack": "^2.6.1"
+    "webpack": "^3.11.0"
  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
