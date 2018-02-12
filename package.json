@@ -1,0 +1,36 @@
+{
+  "name": "sd-react-loading",
+  "version": "0.1.0",
+  "description": "Simple React component that shows a loading spinner and a message",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "webpack": "^2.6.1"
+ },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stahlmanDesign/sd-react-loading.git"
+  },
+  "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stahlmanDesign/sd-react-loading/issues"
+  },
+  "homepage": "https://github.com/stahlmanDesign/sd-react-loading#readme"
+}
