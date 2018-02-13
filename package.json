@@ -1,6 +1,6 @@
 {
   "name": "sd-react-loading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple React component that shows a loading spinner and a message",
   "main": "build/index.js",
   "peerDependencies": {
@@ -21,7 +21,9 @@
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1"
   },
   "repository": {
     "type": "git",
