@@ -1,5 +1,5 @@
 # sd-react-loading
-Simple React component that shows a loading spinner and a message
+React component that shows a loading spinner and a message
 
 # Git repository
 - https://github.com/stahlmanDesign/sd-react-loading
@@ -8,27 +8,64 @@ Simple React component that shows a loading spinner and a message
 - `npm install --save sd-react-loading`
 
 ## Usage
-
-- All arguments are optional
-- Defaults:
-	- **message**: **Loading…**
-	- **spinner**: `<i className='fa fa-spinner'/>` (if FontAwesome 4.x is installed)
-	- **className**: ''
-	- **style**: {}
-	
+```import Loading from 'sd-react-loading'```
+### Basic
 ```
-import Loading from 'sd-react-loading'
+<Loading />
+```
+Shows:
 
+> Loading…
+
+
+
+### Customizing with props	
+```
 <Loading
 	message={ 'Your string or component' }
 	spinner={ <img src={ yourImportedGif } /> }
 	className={ 'your-optional-class-names' }
-	style={{ background: 'red' }}
+	style={{ background: 'red', textAlign: 'right' }}
 />
 ```
 
-# Modifications
-- place the folder in your React project and `import Loading from '`…your path here…`../src/index.js'`
+# Source
+
+```
+import React from 'react'
+import PropTypes from 'prop-types'
+
+class Loading extends React.Component {
+  render(){
+    const { className, style, spinner, message } = this.props
+
+    return (
+      <div className={ 'Loading ' + className } style={ style }>
+        <div className='spinner'>{ spinner }</div>
+        <div className='message'>{ message }</div>
+      </div>
+    )
+  }
+}
+
+Loading.propTypes = {
+  style: PropTypes.object,
+  className: PropTypes.string,
+  spinner: PropTypes.node,
+  message: PropTypes.node // Anything that can be rendered: numbers, strings, elements or an array (or fragment)
+}
+Loading.defaultProps = {
+  style: {
+    textAlign: 'center',
+    marginTop:'0em' // can be overridden by providing style property
+  },
+  className: '',
+  spinner: <i className='fa fa-spinner fa-pulse fa-3x fa-fw'/>, // default assumes FontAwesome 4.x loaded
+  message: 'Loading…'
+}
+export default Loading
+
+```
 
 
 # As an NPM module

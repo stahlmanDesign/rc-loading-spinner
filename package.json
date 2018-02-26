@@ -1,15 +1,13 @@
 {
   "name": "sd-react-loading",
-  "version": "1.0.1",
-  "description": "Simple React component that shows a loading spinner and a message",
+  "version": "1.0.2",
+  "description": "React component that shows a loading spinner and a message",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.2.0"
   },
   "dependencies": {
-    "react": "^16.2.0",
-    "webpack": "^3.11.0"
- },
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
@@ -23,7 +21,9 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1",
     "css-loader": "^0.28.9",
-    "style-loader": "^0.20.1"
+    "react": "^16.2.0",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.11.0"
   },
   "repository": {
     "type": "git",

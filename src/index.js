@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 class Loading extends React.Component {
   render(){
     const { className, style, spinner, message } = this.props
+
     return (
       <div className={ 'Loading ' + className } style={ style }>
         <div className='spinner'>{ spinner }</div>
@@ -21,6 +22,7 @@ Loading.propTypes = {
 }
 Loading.defaultProps = {
   style: {
+    textAlign: 'center',
     marginTop:'0em' // can be overridden by providing style property
   },
   className: '',

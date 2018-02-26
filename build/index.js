@@ -491,6 +491,7 @@ var Loading = function (_React$Component) {
           spinner = _props.spinner,
           message = _props.message;
 
+
       return _react2.default.createElement(
         'div',
         { className: 'Loading ' + className, style: style },
@@ -519,6 +520,7 @@ Loading.propTypes = {
 };
 Loading.defaultProps = {
   style: {
+    textAlign: 'center',
     marginTop: '0em' // can be overridden by providing style property
   },
   className: '',
