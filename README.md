@@ -10,7 +10,7 @@ React component that shows a loading spinner and a message
 ## Usage
 ```import Loading from 'sd-react-loading'```
 ### Basic
-```
+```jsx
 <Loading />
 ```
 Shows:
@@ -20,7 +20,7 @@ Shows:
 
 
 ### Customizing with props	
-```
+```jsx
 <Loading
 	message={ 'Your string or component' }
 	spinner={ <img src={ yourImportedGif } /> }
@@ -31,7 +31,7 @@ Shows:
 
 # Source
 
-```
+```jsx
 import React from 'react'
 import PropTypes from 'prop-types'
 
