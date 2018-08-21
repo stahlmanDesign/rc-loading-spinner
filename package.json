@@ -1,6 +1,6 @@
 {
-  "name": "sd-react-loading",
-  "version": "1.0.2",
+  "name": "@stahlmandesign/rc-loading-spinner",
+  "version": "1.0.3",
   "description": "React component that shows a loading spinner and a message",
   "main": "build/index.js",
   "peerDependencies": {
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stahlmanDesign/sd-react-loading.git"
+    "url": "git+https://github.com/stahlmandesign/rc-loading-spinner.git"
   },
   "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stahlmanDesign/sd-react-loading/issues"
+    "url": "https://github.com/stahlmandesign/rc-loading-spinner/issues"
   },
-  "homepage": "https://github.com/stahlmanDesign/sd-react-loading#readme"
+  "homepage": "https://github.com/stahlmandesign/rc-loading-spinner#readme"
 }

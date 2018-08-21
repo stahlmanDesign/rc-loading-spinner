@@ -1,14 +1,19 @@
-# sd-react-loading
+[![npm (scoped)](https://img.shields.io/npm/v/@stahlmandesign/rc-loading-spinner.svg)](https://github.com/stahlmandesign/rc-loading-spinner)
+[![license](https://img.shields.io/github/license/stahlmandesign/rc-loading-spinner.svg
+)](https://github.com/stahlmandesign/rc-loading-spinner)
+
+
+# @stahlmandesign/rc-loading-spinner
 React component that shows a loading spinner and a message
 
 # Git repository
-- https://github.com/stahlmanDesign/sd-react-loading
+- https://github.com/stahlmandesign/rc-loading-spinner
 
 # Installation
-- `npm install --save sd-react-loading`
+- `npm install --save @stahlmandesign/rc-loading-spinner`
 
 ## Usage
-```import Loading from 'sd-react-loading'```
+```import Loading from '@stahlmandesign/rc-loading-spinner'```
 ### Basic
 ```jsx
 <Loading />
