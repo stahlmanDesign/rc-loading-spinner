@@ -30,7 +30,7 @@
     "url": "git+https://github.com/stahlmandesign/rc-loading-spinner.git"
   },
   "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/stahlmandesign/rc-loading-spinner/issues"
   },
